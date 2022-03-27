@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+    background-image: url('https://m.media-amazon.com/images/I/81MWQlBncvL._AC_SY679_.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+table {
+   border-top: 1px solid black;
+   margin-bottom: 2em;
+   border-bottom: 1px solid black;
+   border-left: 1px solid black;
+   border-right: 1px solid black;
+   padding: .5em;
+}
+
+th  {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: .5em; 
+}
+
+
+td  {
+    border-right: 1px solid black;
+    padding: .5em;
+}
+
+th:nth-of-type(5n) {
+    border-right: white;
+}
+
+td:nth-of-type(5n) {
+    border-right: white;
+}
+
+button {
+    width: 10em;
+    margin: auto;
+}
+
+
+div {
+    background-color: rgb(192, 201, 201);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+}
